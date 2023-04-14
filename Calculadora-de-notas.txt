@@ -1,0 +1,12 @@
+- Criar um software para calcular 3 tipos de média.
+- A aplicação deve ser composta por 1 form principal e 3 forms secundários.
+- O form principal deve conter botões para acesso aos demais forms.
+- Cada form secundário será responsável por calcular um tipo de média (aritmética, ponderada e harmônica).
+- Considere para o cálculo das médias o uso de 4 notas.
+- A fórmula das médias deve ser pesquisada.
+- Cada tipo de média deve conter:
+	* Atributos representando as informações de entrada (ex.: notas, peso, etc.).
+	* Método para cálculo que deverá receber um objeto da própria classe por parâmetro e retornar um valor float.
+- Deve haver uma validação na leitura dos dados em todos os forms (com dados válidos e preenchidos.
+- Deve ser incluída uma estrutura try-catch nos métodos da interface.
+- Projeto deve ser desenvolvido de forma colaborativa entre duas pessoas.
