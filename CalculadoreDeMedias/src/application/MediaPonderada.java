@@ -56,12 +56,11 @@ public class MediaPonderada extends Media {
 
     
 
-    @Override
-    public float CalcularMedia(Media m) {
-        float a = m.getNota1();
-        float b = m.getNota1();
-        float c = m.getNota1();
-        float d = m.getNota1();
+    public float CalcularMedia(MediaPonderada mp) {
+        float a = mp.getNota1();
+        float b = mp.getNota1();
+        float c = mp.getNota1();
+        float d = mp.getNota1();
         return (a*peso1*b*peso2*c*peso3*d*peso4)/(a+b+c+d);
     }
     

@@ -8,13 +8,8 @@ package application;
  *
  * @author Aluno
  */
-public class MediaHarmonica extends Media {
+public class MediaHarmonica {
 
-    public MediaHarmonica(float nota1, float nota2, float nota3, float nota4) {
-        super(nota1, nota2, nota3, nota4);
-    }
-
-    @Override
     public float CalcularMedia(Media m) {
         float a = m.getNota1();
         float b = m.getNota1();

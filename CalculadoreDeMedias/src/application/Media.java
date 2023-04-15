@@ -8,7 +8,7 @@ package application;
  *
  * @author Aluno
  */
-public abstract class Media {
+public class Media {
     private float nota1;
     private float nota2;
     private float nota3;
@@ -20,8 +20,6 @@ public abstract class Media {
         this.nota3 = nota3;
         this.nota4 = nota4;
     }
-    
-    public abstract float CalcularMedia(Media m);
     
     public float getNota1() {
         return nota1;
